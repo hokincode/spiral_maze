@@ -1,0 +1,14 @@
+maze_layout = [[1, 1, 1, 1, 1, 1, 1],
+               [1, 0, 0, 0, 0, 0, 1],
+               [1, 0, 1, 1, 1, 0, 1],
+               [1, 0, 1, 8, 0, 0, 1],
+               [1, 0, 1, 1, 1, 1, 1],
+               [1, 0, 0, 0, 0, 0, 7],
+               [1, 1, 1, 1, 1, 1, 1]]
+        """Initialize the maze game with a given layout."""
+
+0 is open path, and 1 is wall. Top left is given by (0,0).
+
+You initial position is at (5,6), indicated by 7. And your exit is at (3,3), indicated by 8. Do not use algorithms. Check each time if there is a wall, and comes back. Plan using language. Examine if each step is valid. Examine all possible moves in the four directions. For each three steps, do a summary, and then continue. You will not be penalized for generating very long answer.
+
+Please provide me the linguistic plan to exit the maze.
